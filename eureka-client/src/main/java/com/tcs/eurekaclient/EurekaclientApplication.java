@@ -29,7 +29,7 @@ public class EurekaclientApplication {
     public String home(@RequestParam String name){
         return "hi "+name+", i am from port :"+port;
     }
-
+ 
     @Bean
     @LoadBalanced
     RestTemplate restTemplate(){
